@@ -94,13 +94,18 @@ export default function LoginPage() {
 
   return (
     <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      minHeight="100vh"
-      sx={{ backgroundColor: "#f0f2f5", p: 2 }}
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        width: "100%",
+        backgroundColor: "#f0f2f5",
+        p: 2,
+        boxSizing: "border-box",
+      }}
     >
-      <Card sx={{ maxWidth: 460, width: "100%", boxShadow: 4, borderRadius: 2 }}>
+      <Card sx={{ maxWidth: 460, width: "100%", mx: "auto", boxShadow: 4, borderRadius: 2 }}>
         <CardContent sx={{ p: 4 }}>
           <Box display="flex" alignItems="center" gap={1.5} mb={1}>
             <SchoolIcon color="primary" sx={{ fontSize: 36 }} />
