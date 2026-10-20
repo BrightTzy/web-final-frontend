@@ -7,7 +7,7 @@
 
 ---
 
-## Submission Links
+## Source Links
 
 - **Backend Repository Link:** https://github.com/BrightTzy/web-final-backend.git
 - **Frontend Repository Link:** https://github.com/BrightTzy/web-final-frontend.git
